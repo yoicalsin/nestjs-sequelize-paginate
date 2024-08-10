@@ -1,6 +1,6 @@
 # NestJs Sequelize Paginate
 
-🏳‍🌈 Pagination helper method for Sequelize models.
+Pagination helper method for Sequelize models.
 
 <a href="https://github.com/yonycalsin/nestjs-sequelize-paginate"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
 <a href="https://www.npmjs.com/nestjs-sequelize-paginate" target="_blank">
@@ -12,15 +12,12 @@
 <a href="https://github.com/yonycalsin/nestjs-sequelize-paginate" target="_blank">
 <img src="https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_95.svg" alt="Coverage" /></a>
 <a href="https://github.com/yonycalsin/nestjs-sequelize-paginate"><img src="https://img.shields.io/badge/Github%20Page-nestjs.sequelize.paginate-yellow?style=flat-square&logo=github" /></a>
-<a href="https://github.com/yonycalsin"><img src="https://img.shields.io/badge/Author-Yoni%20Calsin-blueviolet?style=flat-square&logo=appveyor" /></a>
-<a href="https://twitter.com/yonycalsin" target="_blank">
-<img src="https://img.shields.io/twitter/follow/yonycalsin.svg?style=social&label=Follow"></a>
 
-## 🌐 Description
+## Description
 
 Under the hood, nestjs-sequelize-paginate makes use of the [nest framework](https://nestjs.com/), and you also need to install [nestjs](https://nestjs.com/), and [sequelize](https://docs.nestjs.com/techniques/database#sequelize-integration) !
 
-## 📦 Integration
+## Integration
 
 To start using it, we first install the required dependencies. In this chapter we will demonstrate the use of the paginate for nestjs.
 
@@ -31,7 +28,7 @@ You simply need to install the package !
 npm install -save nestjs-sequelize-paginate
 ```
 
-## ▶️ Getting started
+## Getting started
 
 Once the installation process is complete, we can import the **PaginateModule** into the root **AppModule**
 
@@ -121,15 +118,6 @@ This decorator returns the following to you !
 }
 ```
 
-## ⭐ Support for
-
-Sass-colors is an open source project licensed by [MIT](LICENSE). You can grow thanks to the sponsors and the support of the amazing sponsors. If you want to join them, [contact me here](https://twitter.com/yonycalsin).
-
-## 🎩 Stay in touch
-
-- Author [Yony Calsin](https://github.com/yonycalsin)
-- Twitter [Yony Calsin](https://twitter.com/yonycalsin)
-
-## 📜 License
+## License
 
 Sass-colors is [MIT licensed](LICENSE).
