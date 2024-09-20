@@ -4,7 +4,7 @@ export const PaginateQuery = createParamDecorator((param: 'all', input) => {
   const {
     route: { path },
     query,
-  } = input
+  } = input.query ? input : input.switchToHttp().getRequest();
 
   const offset: any = query.offset ? parseFloat(query.offset) : null
   const page: any = query.page ? parseFloat(query.page) : null
